@@ -1,0 +1,118 @@
+@charset "utf-8";
+/* .content{
+	margin-top: 122px;
+} */
+.content_title{
+	font-size: 17px;
+	color: black;
+	letter-spacing: 1px;/* 设置字母间的间距 */
+	color:black;
+}
+.content_title_a{
+	color:#d8316c;
+	font-weight: 800;/* 设置文本的粗细 */
+	outline: none;
+}
+.content_title a:hover{
+	text-decoration: none;
+}
+
+.content{
+	margin-top: 60px;
+	width: 100%;
+	padding-bottom: 150px;
+	display: flex;
+}
+.mage_img{
+	width: 388px;
+	height: 388px;
+	/* flex: 0 388px; */
+	border: 1px solid #eee;
+	position: relative;
+	/* background-image: url(img/KK6yArY7Dp.jpg); */
+}
+.img{
+	width: 260px;
+	height: 386px;
+	margin-left: 60px;
+}
+.mage_imglist{
+	width: 88px;
+	margin-left: 16px;
+}
+.img_list{
+	width: 88px;
+	height: 88px;
+	margin-bottom: 12px;
+	position: relative;
+	border: 1px solid #eee;
+	box-sizing: border-box;
+}
+.img_list_img{
+	max-width: 100%;
+	max-height: 100%;
+	top: 50%;
+	margin-left: 15%;
+	/* background: url(img/微信图片_20200828205631.png); */
+}
+.mage_infor{
+	margin-left: 40px;
+	width: 426px;
+	position: relative;
+}
+.mage_title{
+	font-size: 24px;
+	color: #272b2c;
+	font-weight: 800;
+}
+.mage_date{
+	font-size: 17px;
+	color: #272b2c;
+	margin-top: 20px;
+	line-height: 26px;
+	font-weight: 500;
+}
+.mage_price{
+	font-size: 17px;
+	color: #272b2c;
+	line-height: 26px;
+	font-weight: 500;
+}
+.mage_nper{
+	font-size: 17px;
+	color: #272b2c;
+	line-height: 26px;
+	font-weight: 500;
+}
+.intro_title{
+	margin-top: 24px;
+}
+.intro_content{
+	display: -webkit-box;
+	-webkit-line-clamp: 6;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	font-size: 17px;
+	color: #272b2c;
+	line-height: 26px;
+	max-height: 132px;
+	font-weight: 500;
+}
+.mage_btn{
+	position: absolute;
+	top: 345px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+.btn_download{
+	width: 160px;
+	height: 45px;
+	line-height: 45px;
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+	background: #d8316c;
+	border-radius: 3px;
+	letter-spacing: 1px;
+}
